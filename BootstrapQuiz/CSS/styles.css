@@ -1,0 +1,25 @@
+.center {
+    text-align: center;
+}
+
+body {
+    background-color: slategray;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.font {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rokkitt', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+}

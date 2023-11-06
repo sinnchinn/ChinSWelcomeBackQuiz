@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap Quiz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./CSS/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@100&family=Rokkitt:wght@100&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/wickedcss.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="center">Bootstrap Quiz</h1>
+        <h2>Objectives</h2>
+        <ol>
+          <li>Center the Bootstrap Quiz Header</li>
+          <li>Change the background color to Slate Gray</li>
+          <li>
+            Create a new row and create 3 column 4s with a card in each column
+            and make the cards evenly spaced
+          </li>
+          <li>Add a different image to each card and add lorem ipsum to each card</li>
+          <li>
+            Create a paragraph of lorem ipsum and change the font to a Google
+            Font of your liking
+          </li>
+          <li>Add a button and use WickedCss to make the button spin</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Code goes here -->
+
+    <div class="container flex">
+      <div class="row">
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/background.jpg" class="card-img-top" alt="kirby in a field with butterfliies">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, esse porro, itaque
+                officiis eligendi nesciunt corrupti sapiente repellendus provident, reprehenderit iste pariatur sunt
+                voluptatum! Facilis officia id laudantium minima nobis?</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/cute.jpg" class="card-img-top" alt="cute animals in strawberry costumes">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis accusantium nulla,
+                quisquam vero, eos nam, hic suscipit magni molestiae voluptatibus aspernatur porro maiores deleniti
+                sequi nisi necessitatibus debitis impedit labore.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/hi.jpg" class="card-img-top" alt="kirby swimming">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor corrupti laudantium
+                voluptate eveniet quos et quas iusto fugiat earum, voluptas officia, praesentium esse libero ut ipsum
+                expedita delectus quaerat iure!</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sunt veniam corrupti esse blanditiis
+            dolorum officiis enim? At, consectetur, et itaque placeat magnam dicta minima quidem, corrupti accusantium
+            modi officia!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container ">
+      <div class="row">
+        <div class="col-6 center ">
+          <a id="btnChange1" class="btn btn-primary font">Change</a>
+        </div>
+        <div class="col-6 center">
+          <p id="changeMe1" class="font">change me</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <script src="../scripts/app.js"></script>
+</body>
+
+</html>
